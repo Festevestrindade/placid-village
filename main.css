@@ -1,14 +1,3 @@
-      
-@font-face {
-  font-family: 'DINNEXTOPRO';
-  src: url('assets/fonts/din-next-regular/DINNextLTPro-Regular.ttf');
-}
-
-@media all and (max-width: 699px){
-  p{
-    padding: 0 10vw;
-  }
-}
 
 *{
   box-sizing: border-box;
@@ -17,13 +6,13 @@
 html, body, div {
   width: 100%;
   height: 100%;
-  font-size: small;
-  font-family: DINNEXTOPRO;
   text-align: center;
-  line-height: 17px;
-}    
+  }    
 
 div {
+  font-size: small;
+  font-family: DINNEXTOPRO;
+  line-height: 17px;
   color: #444444;
   background-image: url(assets/images/bot-background.svg);
   background-size: contain;
@@ -36,7 +25,7 @@ div {
 a {
   display: block;
   padding: 10px 20px;
-  margin: 45px auto 45px auto;
+  margin: 45px auto;
   width: fit-content;
   text-decoration: none;
   text-transform: uppercase;
@@ -53,11 +42,23 @@ p {
 }
 
 img {
-  margin: 100px 0 0 0;
+  margin-top: 100px;
   padding: 48px 0 8px 0;
   max-width: 341px;
   height: 230px
 }
+      
+@font-face {
+  font-family: 'DINNEXTOPRO';
+  src: url('assets/fonts/din-next-regular/DINNextLTPro-Regular.ttf');
+}
+
+@media all and (max-width: 699px){
+  p{
+    padding: 0 10vw;
+  }
+}
+
 
 
 
