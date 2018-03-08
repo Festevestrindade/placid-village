@@ -1,61 +1,64 @@
+      
+@font-face {
+  font-family: 'DINNEXTOPRO';
+  src: url('assets/fonts/din-next-regular/DINNextLTPro-Regular.ttf');
+}
+
+@media all and (max-width: 699px){
+  p{
+    padding: 0 10vw;
+  }
+}
+
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body, div {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  font-size: small;
+  font-family: DINNEXTOPRO;
+  text-align: center;
+  line-height: 17px;
 }    
 
-    div {
-        background-image: url(assets/images/bot-background.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        color: #444444;
-        font-family: DINNEXTOPRO;
-        text-align: center;
-        background-color: #E6C7A0;
-      }
+div {
+  color: #444444;
+  background-image: url(assets/images/bot-background.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #e6c7a0;
 
-    a {
-        display: block;
-        margin:45px auto 45px auto;
-        width: fit-content;
-        text-align: center;
-        color: #E6C7A0;
-        background-color: white;
-        padding: 10px 20px;
-        cursor: pointer;
-        text-decoration: none;
-        text-transform: uppercase;
-      }
+}
 
-      p {
-        text-align: center;
-        margin:20px 20px;
-        color: white;
-        padding: 0 22vw;
-      }
+a {
+  display: block;
+  padding: 10px 20px;
+  margin: 45px auto 45px auto;
+  width: fit-content;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e6c7a0;
+  background-color: white;
+  cursor: pointer;
+}
 
-      img {
-        align-content: center;
-        padding: 75px 0 20px 0;
-        max-width: 341px;
-        width: 80%;
-        height: auto;
-      }
-    @media all and (max-width: 699px){
-        p{
-            padding: 0 10vw;
-        }
-    }
-   
-    
+p {
+  padding: 0 27vw;
+  margin: 20px 20px;
+  color: white;
 
-    @font-face {
-        font-family: 'DINNEXTOPRO';
-        src: url('assets/fonts/din-next-regular/DINNextLTPro-Regular.ttf');
-    }
+}
+
+img {
+  margin: 100px 0 0 0;
+  padding: 48px 0 8px 0;
+  max-width: 341px;
+  height: 230px
+}
+
+
 
 
